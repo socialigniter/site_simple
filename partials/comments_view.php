@@ -1,6 +1,5 @@
 <div id="comments">
 	<h3><span id="comments_count"><?= $comments_title ?></span> Comments</h3>
-	
 	<ol id="comments_list">
 		<?php if($comments_list) echo $comments_list ?>
 	</ol>
@@ -192,7 +191,7 @@ $(document).ready(function()
 			var comment_count_updated	= parseInt(comment_count_current)-1;		
 		}
 
-		$(this).oauthAjax(
+		$.oauthAjax(
 		{
 			oauth 		: user_data,
 			url			: comment_delete,

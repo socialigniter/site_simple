@@ -49,7 +49,7 @@ div.content_links			{ display: none; }
 #content_links_body a:hover	{ text-decoration: none; color: #ffffff; }
 
 /* Pages */
-#container			{ width: 750px; margin: 35px; }
+#container			{ width: 900px; margin: 35px; }
 #container h2		{ margin: 25px 0 15px 0; }
 #container ul		{ margin: 15px 0 0 20px; }
 #container p		{ margin: 25px 0 15px 0; }
