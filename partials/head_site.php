@@ -1,32 +1,32 @@
 <link rel="icon" type="image/png" href="<?= $site_images ?>favicon.png" />
-<link href="<?= base_url() ?>css/common.css" rel="stylesheet" type="text/css" media="all" />
+<link href="<?= $site_assets ?>site.css" rel="stylesheet" type="text/css" media="all" /> 
 <style type="text/css">
-body 		{ background: <?= make_css_background('background') ?>; }
-a:link 		{ font-weight: normal; color: #<?= config_item('design_font_color_normal') ?>; text-decoration: none; line-height: 21px; }
-a:visited	{ font-weight: normal; color: #<?= config_item('design_font_color_visited') ?>; text-decoration: none; }
-a:hover		{ font-weight: normal; color:#<?= config_item('design_font_color_hover') ?>; text-decoration: underline; }
-a:active	{ font-weight: normal; text-decoration: none; }
+body 			{ background: <?= make_css_background('background') ?>; font-family: <?= config_item('design_font_family') ?>; font-size: <?= config_item('design_font_size') ?>; color: #<?= config_item('design_font_color') ?>; }
+p 				{ font-family: <?= config_item('design_font_family') ?>; font-size: <?= config_item('design_font_size') ?>; color: #<?= config_item('design_font_color') ?>; }
+a:link 			{ font-weight: normal; color: #<?= config_item('design_link_color_normal') ?>; text-decoration: none; line-height: 21px; }
+a:visited		{ font-weight: normal; color: #<?= config_item('design_link_color_visited') ?>; text-decoration: none; }
+a:hover			{ font-weight: normal; color:#<?= config_item('design_link_color_hover') ?>; text-decoration: underline; }
+a:active		{ font-weight: normal; text-decoration: none; }
 
+#navbar 						{ width: 100%; margin: 0; background: <?= make_css_background('header') ?>; }
+#navbar a, #footer a		 	{ color: #<?= config_item('design_header_link_color_normal') ?>; font-size: <?= config_item('design_font_size') ?>; font-weight: bold; letter-spacing: 1px; text-decoration: none; }
+#navbar a:link, #footer a:link	{ color: #<?= config_item('design_header_link_color_normal') ?>; text-decoration: none; }
+#navbar a:visited, #footer a:visited { color: #<?= config_item('design_header_link_color_visited') ?>; text-decoration: none; }
+#navbar a:hover, #footer a:hover { color: #<?= config_item('design_header_link_color_hover') ?>; text-decoration: none; }
+#navbar a:active, #footer a:active { text-decoration: underline; }
+#navbar_inside					{ height: 40px; display: none; background: <?= make_css_background('header') ?>; color: #<?= config_item('design_header_link_color_normal') ?>; }
+#footer 						{ width: 100%; position: relative; margin-top: -123px; height: 123px; clear:both; background: <?= make_css_background('header') ?>; font-size: <?= config_item('design_font_size') ?>; }
+
+/* Modules Have This */
 .content_container h1 a			{ font-weight: bold !important; color: #<?= config_item('design_font_color_normal') ?>; text-decoration: none; }
 .content_container h2 a			{ font-weight: bold !important; color: #<?= config_item('design_font_color_normal') ?>; text-decoration: none; }
+.content_container h3 a			{ font-weight: bold !important; color: #<?= config_item('design_font_color_normal') ?>; text-decoration: none; }
 .content_container a:link 		{ font-weight: normal; font-weight: bold; color: #<?= config_item('design_link_color_normal') ?>; text-decoration: none; }
 .content_container a:visited	{ font-weight: normal; font-weight: bold; color: #<?= config_item('design_link_color_visited') ?>; text-decoration: none; }
 .content_container a:hover		{ font-weight: normal; font-weight: bold; color:#<?= config_item('design_link_color_hover') ?>; text-decoration: underline; }
 .content_container a:active		{ font-weight: normal; font-weight: bold; text-decoration: none; }
-
-#header 						{ width: 100%; height: 123px; margin: 0; background: <?= make_css_background('header') ?>; }
-#header a, #footer a		 	{ color: #<?= config_item('design_header_link_color_normal') ?>; text-shadow: 1px 1px 1px #999999; font-size: 16px; font-weight: bold; letter-spacing: 1px; text-decoration: none; }
-#header a:link, #footer a:link	{ color: #<?= config_item('design_header_link_color_normal') ?>; text-decoration: none; }
-#header a:visited, #footer a:visited { color: #<?= config_item('design_header_link_color_visited') ?>; text-decoration: none; }
-#header a:hover, #footer a:hover { color: #<?= config_item('design_header_link_color_hover') ?>; text-decoration: none; }
-#header a:active, #footer a:active { text-decoration: underline; }
-#footer 						{ width: 100%; position: relative; margin-top: -123px; height: 123px; clear:both; background: <?= make_css_background('header') ?>; font-size: 14px; }
-
-#name 							{ width: 625px; height: 72px; display: block; position: relative; top: 40px; left: 0; float: left; }
-#name a, #name a h1 			{ width: 100%; height: 100%; display: block; position: relative; top: 0px; left: 0px; font-size: 72px; line-height: 72px; color: #<?= config_item('design_header_link_color_normal') ?>; text-shadow: 1px 1px 1px #999999; }
-#name a:hover, #name a:hover h1		{ color: #<?= config_item('design_header_link_color_hover') ?>; text-shadow: 1px 1px 1px #999999; }
+.content_container p 			{ font-family: <?= config_item('design_font_family') ?>; font-size: <?= config_item('design_font_size') ?>; color: #<?= config_item('design_font_color') ?>; }
 </style>
-<link href="<?= $site_assets ?>site.css" rel="stylesheet" type="text/css" media="all" /> 
 <script type="text/javascript" charset="utf-8" src="<?= base_url() ?>js/jquery.js"></script>
 <script type="text/javascript" src="<?= base_url() ?>js/social.core.js"></script>
 <script type="text/javascript">

@@ -2,7 +2,7 @@
 	"theme":"site_simple",
 	"name":"Simple",
 	"created":"2012-07-02",
-	"updated":"2012-07-02",
+	"updated":"2012-07-18",
 	"creator":"Brennan Novak",
 	"layouts":{
 		"html":[],

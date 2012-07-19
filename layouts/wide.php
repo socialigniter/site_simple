@@ -19,7 +19,6 @@
 
 <!-- RSS & Atom Feeds -->
 <link rel="alternate" type="application/rss+xml" title="<?= $site_title ?> RSS 2.0 Feed" href="<?= base_url() ?>feed" />
-<link rel="alternate" type="application/rss+xml" title="<?= $site_title ?> RSS 2.0 Comments" href="<?= base_url() ?>feed/comments" />
 
 <?= $head ?>
 </head>
@@ -27,10 +26,11 @@
 <div id="navbar">
 	<div id="navbar_inside">
 		<a href="<?= base_url() ?>" id="navbar_left_index"><img src="<?= $site_assets ?>icons/home.png"><span class="navbar_text"><?= $site_title ?></span></a>
-		<?= $logged ?>
+		<?= $logged; ?>
 		<div class="clear"></div>
 	</div>
 </div>
+
 
 <div id="container">
 	<div id="content_message" class="message_normal"><?= $message ?></div>

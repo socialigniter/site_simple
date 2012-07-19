@@ -19,7 +19,6 @@
 
 <!-- RSS & Atom Feeds -->
 <link rel="alternate" type="application/rss+xml" title="<?= $site_title ?> RSS 2.0 Feed" href="<?= base_url() ?>feed" />
-<link rel="alternate" type="application/rss+xml" title="<?= $site_title ?> RSS 2.0 Comments" href="<?= base_url() ?>feed/comments" />
 
 <?= $head ?>
 </head>

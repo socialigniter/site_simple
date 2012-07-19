@@ -1,5 +1,4 @@
 <?= '<'?>?xml version="1.0" encoding="UTF-8"?<?= '>' ?>
-
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:georss="http://www.georss.org/georss" xmlns:activity="http://activitystrea.ms/spec/1.0/" xmlns:media="http://purl.org/syndication/atommedia" xmlns:poco="http://portablecontacts.net/spec/1.0" xmlns:ostatus="http://ostatus.org/schema/1.0" xmlns:statusnet="http://status.net/schema/api/1/">
 	<updated><?= date('Y-m-d\TH:i:s\Z', strtotime($activities[0]->created_at)) ?></updated>
 	<id><?= base_url() ?>profile/<?= $username ?>/feed</id>
