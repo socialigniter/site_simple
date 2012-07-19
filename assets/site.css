@@ -33,11 +33,12 @@ ul li		{ margin: 0px; padding: 0px; }
 .hide		{ display: none; }
 .wrapper 	{ min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -440px; }
 
-#navbar_left_index	{ float: left; position: relative; top: 4px; left: 35px; }
-#navbar_left		{ float: left; position: relative; top: 4px; left: 18px; }
-#navbar_right		{ float: right; position: relative; top: 10px; right: 28px; list-style-type: none; }
-#navbar_right li	{ float: left; margin-left: 25px; }
-span.navbar_text	{ position: relative; top: -6px; left: 12px; }
+#navbar_left_index					{ float: left; position: relative; top: 6px; left: 35px; }
+#navbar_left_index img 				{ height: 28px; }
+#navbar_left						{ float: left; position: relative; top: 4px; left: 18px; }
+#navbar_right						{ float: right; position: relative; top: 10px; right: 28px; list-style-type: none; }
+#navbar_right li					{ float: left; margin-left: 25px; }
+span.navbar_text					{ position: relative; top: -8px; left: 12px; }
 
 /* Index */
 #index								{ margin: 35px 0 0 35px; }

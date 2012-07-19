@@ -8,7 +8,7 @@ a:visited		{ font-weight: normal; color: #<?= config_item('design_link_color_vis
 a:hover			{ font-weight: normal; color:#<?= config_item('design_link_color_hover') ?>; text-decoration: underline; }
 a:active		{ font-weight: normal; text-decoration: none; }
 
-#navbar 						{ width: 100%; margin: 0; background: <?= make_css_background('header') ?>; }
+#navbar 						{ width: 100%; height: 40px; margin: 0; }
 #navbar a, #footer a		 	{ color: #<?= config_item('design_header_link_color_normal') ?>; font-size: <?= config_item('design_font_size') ?>; font-weight: bold; letter-spacing: 1px; text-decoration: none; }
 #navbar a:link, #footer a:link	{ color: #<?= config_item('design_header_link_color_normal') ?>; text-decoration: none; }
 #navbar a:visited, #footer a:visited { color: #<?= config_item('design_header_link_color_visited') ?>; text-decoration: none; }
