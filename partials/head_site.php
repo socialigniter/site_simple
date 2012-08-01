@@ -9,13 +9,12 @@ a:hover			{ font-weight: normal; color:#<?= config_item('design_link_color_hover
 a:active		{ font-weight: normal; text-decoration: none; }
 
 #navbar 						{ width: 100%; height: 40px; margin: 0; }
-#navbar a, #footer a		 	{ color: #<?= config_item('design_header_link_color_normal') ?>; font-size: <?= config_item('design_font_size') ?>; font-weight: bold; letter-spacing: 1px; text-decoration: none; }
-#navbar a:link, #footer a:link	{ color: #<?= config_item('design_header_link_color_normal') ?>; text-decoration: none; }
-#navbar a:visited, #footer a:visited { color: #<?= config_item('design_header_link_color_visited') ?>; text-decoration: none; }
-#navbar a:hover, #footer a:hover { color: #<?= config_item('design_header_link_color_hover') ?>; text-decoration: none; }
-#navbar a:active, #footer a:active { text-decoration: underline; }
+#navbar a		 				{ color: #<?= config_item('design_header_link_color_normal') ?>; font-size: <?= config_item('design_font_size') ?>; font-weight: bold; letter-spacing: 1px; text-decoration: none; }
+#navbar a:link					{ color: #<?= config_item('design_header_link_color_normal') ?>; text-decoration: none; }
+#navbar a:visited				{ color: #<?= config_item('design_header_link_color_visited') ?>; text-decoration: none; }
+#navbar a:hover					{ color: #<?= config_item('design_header_link_color_hover') ?>; text-decoration: none; }
+#navbar a:active  				{ text-decoration: underline; }
 #navbar_inside					{ height: 40px; display: none; background: <?= make_css_background('header') ?>; color: #<?= config_item('design_header_link_color_normal') ?>; }
-#footer 						{ width: 100%; position: relative; margin-top: -123px; height: 123px; clear:both; background: <?= make_css_background('header') ?>; font-size: <?= config_item('design_font_size') ?>; }
 
 /* Modules Have This */
 .content_container h1 a			{ font-weight: bold !important; color: #<?= config_item('design_font_color_normal') ?>; text-decoration: none; }
