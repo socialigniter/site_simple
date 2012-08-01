@@ -21,9 +21,9 @@ em { font-style:italic; }
 */
 * { margin: 0; }
 body 		{ height: 100%; margin: 0; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; }
-h1 			{ font-size: 48px; line-height: 48px; margin: 0; font-weight: bold; }
-h2 			{ font-size: 36px; line-height: 36px; margin: 35px 0 0 0; font-weight: bold; }
-h3 			{ font-size: 30px; line-height: 30px; margin: 35px 0 0 0; font-weight: bold; }
+h1 			{ font-size: 60px; line-height: 60px; margin: 0; padding: 0px; font-weight: bold; }
+h2 			{ font-size: 36px; line-height: 36px; margin: 35px 0 0 0; padding: 0px; font-weight: bold; }
+h3 			{ font-size: 30px; line-height: 30px; margin: 35px 0 0 0; padding: 0px; font-weight: bold; }
 h4 			{ font-size: 21px; margin: 0; font-weight: bold; }
 p 			{ margin: 25px 0; }
 ul			{ margin: 0px; padding: 0px; list-style-type: square; }
@@ -40,31 +40,8 @@ ul li		{ margin: 0px; padding: 0px; }
 #navbar_right li					{ float: left; margin-left: 25px; }
 span.navbar_text					{ position: relative; top: -8px; left: 12px; }
 
-/* Index */
-#index								{ margin: 35px 0 0 35px; }
-#index_nav							{ list-style: none; margin: 35px 0 45px 0; padding: 0; text-align: left; }
-#index_nav li.index_link			{ min-height: 72px; margin: 0 0 25px 0; line-height: 72px; display: block; }
-#index_nav a.nav_link				{ font-size: 72px; font-weight: bold; color: #000000; display: none; width: 100%; height: 100%; }
-#index_nav a.nav_link:hover			{ text-decoration: none; }
-
-span.index_nav_icons 				{ width: 55px; height: 58px; display: block; float: left; margin: 0 25px 0 0; position: relative; top: 7px; left: 0px; background-image: url(/application/views/site_brennannovak/assets/icons/index_icons_negative.png); background-repeat: no-repeat; background-color: #000000; }
-
-#index_nav a span.index_nav_work				{ background-position: 0 0; }
-#index_nav a span.index_nav_experiments			{ background-position: 0 -75px; }
-#index_nav a span.index_nav_ideas				{ background-position: 0 -150px; }
-#index_nav a span.index_nav_essays 				{ background-position: 0 -225px; }
-#index_nav a span.index_nav_contact 			{ background-position: 0 -300px; }
-
-div.content_links			{ display: none; }
-
-#content_links				{ width: 500px; display: none; }
-#content_links_up			{ width: 100%; height: 17px; background: url(/application/views/site_brennannovak/assets/icons/black_arrow_up.png) 45px 0 no-repeat; }
-#content_links_body			{ background: #000000; padding: 17px 15px 1px 17px; }
-#content_links_body p		{ margin: 0 0 15px 0; padding: 0; line-height: 14px; font-size: 14px; font-weight: normal; }
-#content_links_body a:hover	{ text-decoration: none; color: #ffffff; }
-
 /* Pages */
-#container			{ width: 900px; margin: 35px; }
+#container			{ width: 90%; margin: 35px; }
 #container h2		{ margin: 25px 0 15px 0; }
 #container ul		{ margin: 15px 0 0 20px; }
 #container p		{ margin: 25px 0 15px 0; }
@@ -85,24 +62,3 @@ span.citation_link	{ display: block; font-size: 12px; font-style: italic; margin
 #share_table		{ margin: 40px 0 10px 0; }
 #share_table h4		{ margin: 0 0 20px 0; }
 
-#footer 			{ width: 100%; background-color: #222222; color: #ffffff; margin: 0px; }
-.footer_wrap 		{ width: 800px; margin: 0 auto; }
-
-#footerbar			{ width: 100%; height: 40px; background-color: #000000; }
-#footerbar a 		{ color: #eeeeee; font-weight: bolder; }
-#footerbar a:hover	{ color: #aaaaaa; text-decoration: none; }
-#footerbar_left		{ float: left; position: relative; top: 6px; left: 20px; }
-#footerbar_right 	{ float: right; position: relative; top: 6px; right: 28px; }
-span.footerbar_text	{ position: relative; top: -7px; left: 15px; }
-
-#footer_content		{ width: 100%; height: 325px; padding: 35px 0 60px 0; }
-#footer_left		{ width: 325px; float: left; margin: 0 0 0 0; }
-#footer_middle		{ width: 250px; float: left; margin: 0 0 0 50px; }
-#footer_right		{ width: 125px; float: right; }
-#footer_about		{ margin: 0; }
-#footer_about img	{ float: left; margin: 0 25px 10px 0; }
-#footer_about_name	{ font-size: 30px; font-weight: bold; display: block; margin: 0 0 20px 0; }
-#footer h3			{ margin: 0 0 20px 0; }
-#footer ul 			{ list-style: none; margin: 0; padding: 0; }
-#footer ul li 		{ margin: 0 0 6px 0; }
-#news_feed li		{ margin: 0 0 12px 0 !important; }
