@@ -3,10 +3,10 @@
 <style type="text/css">
 body 			{ background: <?= make_css_background('background') ?>; font-family: <?= config_item('design_font_family') ?>; font-size: <?= config_item('design_font_size') ?>; color: #<?= config_item('design_font_color') ?>; }
 p 				{ font-family: <?= config_item('design_font_family') ?>; font-size: <?= config_item('design_font_size') ?>; color: #<?= config_item('design_font_color') ?>; }
-a:link 			{ font-weight: normal; color: #<?= config_item('design_link_color_normal') ?>; text-decoration: none; line-height: 21px; }
-a:visited		{ font-weight: normal; color: #<?= config_item('design_link_color_visited') ?>; text-decoration: none; }
-a:hover			{ font-weight: normal; color:#<?= config_item('design_link_color_hover') ?>; text-decoration: underline; }
-a:active		{ font-weight: normal; text-decoration: none; }
+a:link 			{ color: #<?= config_item('design_link_color_normal') ?>; text-decoration: none; line-height: 21px; }
+a:visited		{ color: #<?= config_item('design_link_color_visited') ?>; text-decoration: none; }
+a:hover			{ color:#<?= config_item('design_link_color_hover') ?>; text-decoration: underline; }
+a:active		{ text-decoration: none; }
 
 #navbar 						{ width: 100%; height: 40px; margin: 0; }
 #navbar a		 				{ color: #<?= config_item('design_header_link_color_normal') ?>; font-size: <?= config_item('design_font_size') ?>; font-weight: bold; letter-spacing: 1px; text-decoration: none; }
