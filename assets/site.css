@@ -34,6 +34,14 @@ blockquote	{ border-left: 8px solid #D9D9D9; padding: 5px 0 5px 25px; margin: 25
 .hide		{ display: none; }
 .wrapper 	{ min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -440px; }
 
+#content_message				{ width: 100%; display: none; margin: 15px 0; font-size: 14px; font-weight: bold; }
+
+div.message_normal				{ padding: 0; }
+div.message_error				{ padding: 12px 15px; background: #B50606; color: #000000; }
+div.message_alert				{ padding: 12px 15px; background: #f8eb00; color: #000000; }
+div.message_success				{ padding: 12px 15px; background: #479e45; color: #fbedbd; }
+
+
 #navbar_left_index					{ float: left; position: relative; top: 6px; left: 35px; }
 #navbar_left_index img 				{ height: 28px; }
 #navbar_left						{ float: left; position: relative; top: 4px; left: 18px; }
