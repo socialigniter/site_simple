@@ -11,5 +11,6 @@
 		"wide":["wide","navigation"],
 		"profile":["content","sidebar","navigation"]
 	},
-	"default_layout":"wide"
+	"default_layout":"wide",
+	"head_footer":"yes"	
 }
