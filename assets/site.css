@@ -30,6 +30,14 @@ ul			{ margin: 0px; padding: 0px 0px 0px 20px; list-style-type: square; }
 ul li		{ margin: 0px; padding: 0px; }
 blockquote	{ border-left: 8px solid #D9D9D9; padding: 5px 0 5px 25px; margin: 25px 0; font-style: italic; }
 
+label		{ display: block; font-weight: bold; font-size: 14px; line-height: 21px; }
+
+input[type=text], input[type=password], input[type=email], input[type=url] { height: 28px; background: #fff; font-size: 13px; font-family: Arial, Helvetica, sans-serif; margin: 0 10px 10px 0; padding: 0 10px; border-radius: 3px; outline: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border: 1px solid #999; }
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=url]:focus { height: 28px; background: #fff; margin: 0 10px 10px 0; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border: 1px solid #cccccc; outline: none; -moz-box-shadow: 0 0 3px #333; -webkit-box-shadow: 0 0 3px #333; box-shadow: 0 0 3px #333; }
+
+textarea 					{ background: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 14px; padding: 10px; border-radius: 5px;  -webkit-border-radius: 5px; -moz-border-radius: 5px; border: 1px solid #cccccc; outline: none; }
+textarea:focus 				{ background: #ffffff; outline: none; -moz-box-shadow: 0 0 4px #c3c3c3; -webkit-box-shadow: 0 0 4px #c3c3c3; box-shadow: 0 0 4px #c3c3c3; }
+
 .clear 		{ clear: both; }
 .hide		{ display: none; }
 .wrapper 	{ min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -440px; }
