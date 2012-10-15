@@ -38,6 +38,9 @@
 	<?= $wide ?>
 </div>
 
+<div id="footer">
+	<?= $footer ?>
+</div>
 <?= $google_analytics ?>
 </body>
 </html>
