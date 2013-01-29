@@ -1,6 +1,277 @@
 /* http://meyerweb.com/eric/tools/css/reset/ v2.0b1 | 201101  NOTE: WORK IN PROGRESS USE WITH CAUTION AND TEST WITH ABANDON */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+
+@font-face {
+	font-family: 'Simple-Theme-Icons';
+	src:url('fonts/Simple-Theme-Icons.eot');
+	src:url('fonts/Simple-Theme-Icons.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Simple-Theme-Icons.svg#Simple-Theme-Icons') format('svg'),
+		url('fonts/Simple-Theme-Icons.woff') format('woff'),
+		url('fonts/Simple-Theme-Icons.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'Simple-Theme-Icons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"]:before {
+*/
+.icon-home:before, .icon-newspaper:before, .icon-camera:before, .icon-music:before, .icon-bell:before, .icon-calendar:before, .icon-phone:before, .icon-mail:before, .icon-mobile:before, .icon-forward:before, .icon-reply:before, .icon-reply-2:before, .icon-comments:before, .icon-comments-2:before, .icon-user:before, .icon-undo:before, .icon-redo:before, .icon-tag:before, .icon-cart:before, .icon-search:before, .icon-key:before, .icon-equalizer:before, .icon-cog:before, .icon-pie:before, .icon-bars:before, .icon-stats-up:before, .icon-flag:before, .icon-attachment:before, .icon-grid-view:before, .icon-thumbs-up:before, .icon-thumbs-down:before, .icon-feed:before, .icon-cancel:before, .icon-checkmark:before, .icon-minus:before, .icon-plus:before, .icon-bookmark:before, .icon-eye:before, .icon-cloud:before, .icon-link:before, .icon-lightning:before, .icon-star:before, .icon-coffee:before, .icon-briefcase:before, .icon-camera-2:before, .icon-mic:before, .icon-rocket:before, .icon-wrench:before, .icon-key-2:before, .icon-locked:before, .icon-support:before, .icon-share:before, .icon-share-2:before, .icon-cancel-2:before, .icon-blocked:before, .icon-loop:before, .icon-arrow-down:before, .icon-arrow-up:before, .icon-arrow-right:before, .icon-arrow-left:before, .icon-remove:before, .icon-clipboard:before, .icon-location:before, .icon-gift:before, .icon-arrow-up-2:before, .icon-arrow-right-2:before, .icon-arrow-down-2:before, .icon-arrow-left-2:before, .icon-heart:before, .icon-copy:before, .icon-zoom-in:before, .icon-zoom-out:before, .icon-pictures:before, .icon-tools:before, .icon-lightbulb:before, .icon-beaker:before, .icon-pencil:before {
+	font-family: 'Simple-Theme-Icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-home:before {
+	content: "\e000";
+}
+.icon-newspaper:before {
+	content: "\e002";
+}
+.icon-camera:before {
+	content: "\e003";
+}
+.icon-music:before {
+	content: "\e005";
+}
+.icon-bell:before {
+	content: "\e006";
+}
+.icon-calendar:before {
+	content: "\e007";
+}
+.icon-phone:before {
+	content: "\e008";
+}
+.icon-mail:before {
+	content: "\e009";
+}
+.icon-mobile:before {
+	content: "\e00b";
+}
+.icon-forward:before {
+	content: "\e00c";
+}
+.icon-reply:before {
+	content: "\e00d";
+}
+.icon-reply-2:before {
+	content: "\e00e";
+}
+.icon-comments:before {
+	content: "\e010";
+}
+.icon-comments-2:before {
+	content: "\e00f";
+}
+.icon-user:before {
+	content: "\e012";
+}
+.icon-undo:before {
+	content: "\e011";
+}
+.icon-redo:before {
+	content: "\e013";
+}
+.icon-tag:before {
+	content: "\e014";
+}
+.icon-cart:before {
+	content: "\e015";
+}
+.icon-search:before {
+	content: "\e017";
+}
+.icon-key:before {
+	content: "\e018";
+}
+.icon-equalizer:before {
+	content: "\e019";
+}
+.icon-cog:before {
+	content: "\e01a";
+}
+.icon-pie:before {
+	content: "\e01b";
+}
+.icon-bars:before {
+	content: "\e01c";
+}
+.icon-stats-up:before {
+	content: "\e01d";
+}
+.icon-flag:before {
+	content: "\e01e";
+}
+.icon-attachment:before {
+	content: "\e01f";
+}
+.icon-grid-view:before {
+	content: "\e021";
+}
+.icon-thumbs-up:before {
+	content: "\e022";
+}
+.icon-thumbs-down:before {
+	content: "\e023";
+}
+.icon-feed:before {
+	content: "\e026";
+}
+.icon-cancel:before {
+	content: "\e02d";
+}
+.icon-checkmark:before {
+	content: "\e02e";
+}
+.icon-minus:before {
+	content: "\e02f";
+}
+.icon-plus:before {
+	content: "\e030";
+}
+.icon-bookmark:before {
+	content: "\e031";
+}
+.icon-eye:before {
+	content: "\e032";
+}
+.icon-cloud:before {
+	content: "\e033";
+}
+.icon-link:before {
+	content: "\e034";
+}
+.icon-lightning:before {
+	content: "\e035";
+}
+.icon-star:before {
+	content: "\e037";
+}
+.icon-coffee:before {
+	content: "\e038";
+}
+.icon-briefcase:before {
+	content: "\e03a";
+}
+.icon-camera-2:before {
+	content: "\e03b";
+}
+.icon-mic:before {
+	content: "\e03c";
+}
+.icon-rocket:before {
+	content: "\e03e";
+}
+.icon-wrench:before {
+	content: "\e03f";
+}
+.icon-key-2:before {
+	content: "\e040";
+}
+.icon-locked:before {
+	content: "\e041";
+}
+.icon-support:before {
+	content: "\e042";
+}
+.icon-share:before {
+	content: "\e045";
+}
+.icon-share-2:before {
+	content: "\e046";
+}
+.icon-cancel-2:before {
+	content: "\e047";
+}
+.icon-blocked:before {
+	content: "\e048";
+}
+.icon-loop:before {
+	content: "\e043";
+}
+.icon-arrow-down:before {
+	content: "\e049";
+}
+.icon-arrow-up:before {
+	content: "\e04a";
+}
+.icon-arrow-right:before {
+	content: "\e04b";
+}
+.icon-arrow-left:before {
+	content: "\e04c";
+}
+.icon-remove:before {
+	content: "\e024";
+}
+.icon-clipboard:before {
+	content: "\e020";
+}
+.icon-location:before {
+	content: "\e00a";
+}
+.icon-gift:before {
+	content: "\e027";
+}
+.icon-arrow-up-2:before {
+	content: "\e028";
+}
+.icon-arrow-right-2:before {
+	content: "\e029";
+}
+.icon-arrow-down-2:before {
+	content: "\e02a";
+}
+.icon-arrow-left-2:before {
+	content: "\e02b";
+}
+.icon-heart:before {
+	content: "\e02c";
+}
+.icon-copy:before {
+	content: "\e025";
+}
+.icon-zoom-in:before {
+	content: "\e036";
+}
+.icon-zoom-out:before {
+	content: "\e03d";
+}
+.icon-pictures:before {
+	content: "\e016";
+}
+.icon-tools:before {
+	content: "\e004";
+}
+.icon-lightbulb:before {
+	content: "\e039";
+}
+.icon-beaker:before {
+	content: "\e044";
+}
+.icon-pencil:before {
+	content: "\e04d";
+}
+
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
 body { line-height: 1; }
