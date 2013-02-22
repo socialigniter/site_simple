@@ -12,7 +12,7 @@
 <!-- OpenGraph (Facebook) http://ogp.me -->
 <meta property="og:title" content="<?= site_title($sub_title, $page_title, $site_title) ?>"/>
 <meta property="og:type" content="website" />
-<meta property="og:image" content="<?= $site_image ?>"/>
+<meta property="og:image" content="<?= site_image($site_image) ?>"/>
 <meta property="og:url" content="<?= current_url() ?>"/>
 <meta property="og:site_name" content="<?= config_item('site_title') ?>"/>
 <meta property="og:description" content="<?= $site_description ?>">
