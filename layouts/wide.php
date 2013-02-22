@@ -17,6 +17,7 @@
 <meta property="og:site_name" content="<?= config_item('site_title') ?>"/>
 <meta property="og:description" content="<?= $site_description ?>">
 
+
 <!-- RSS & Atom Feeds -->
 <link rel="alternate" type="application/rss+xml" title="<?= $site_title ?> RSS 2.0 Feed" href="<?= base_url() ?>feed" />
 
