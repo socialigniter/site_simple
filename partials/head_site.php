@@ -1,3 +1,4 @@
+<!--  Favicon -->
 <link rel="icon" type="image/png" href="<?= $site_images ?>favicon.png" />
 <link href="<?= $site_assets ?>site.css" rel="stylesheet" type="text/css" media="all" /> 
 <?php
