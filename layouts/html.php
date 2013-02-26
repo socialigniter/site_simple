@@ -21,6 +21,7 @@
 </head>
 <body>
 <?= $body ?>
+<?= $footer ?>
 <?= $google_analytics ?>
 </body>
 </html>
