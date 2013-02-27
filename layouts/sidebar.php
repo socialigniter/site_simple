@@ -45,9 +45,7 @@
 	</div>	
 </div>
 
-<div id="footer">
-	<?= $footer ?>
-</div>
+<?= $footer ?>
 <?= $google_analytics ?>
 </body>
 </html>

@@ -26,7 +26,7 @@
 <body>
 <div id="navbar">
 	<div id="navbar_inside">
-		<a href="<?= base_url() ?>" id="navbar_left_index"><?= show_site_logo('small', $site_assets.'icons/home.png') ?><span class="navbar_text"><?= $site_title ?></span></a>
+		<a href="<?= base_url() ?>" id="navbar_left_index"><span class="icon-home"></span> <span class="navbar_text"><?= $site_title ?></span></a>
 		<?= $logged; ?>
 		<div class="clear"></div>
 	</div>
@@ -39,9 +39,7 @@
 	<?= $wide ?>
 </div>
 
-<div id="footer">
-	<?= $footer ?>
-</div>
+<?= $footer ?>
 <?= $google_analytics ?>
 </body>
 </html>
