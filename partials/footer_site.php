@@ -1,4 +1,4 @@
-<div id="footer" <?php if (!$this->uri->segment(1)) echo 'style="display:none"'; ?>></div>
+<div id="footer" style="display:none"></div>
 
 <script type="text/javascript" charset="utf-8" src="<?= base_url() ?>js/jquery.js"></script>
 <script type="text/javascript" src="<?= base_url() ?>js/social.core.js"></script>
