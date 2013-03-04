@@ -133,7 +133,7 @@ div.message_success				{ padding: 12px 15px; background: #479e45; color: #fbedbd
 span.navbar_text				{ position: relative; top: -8px; left: 12px; }
 
 /* Pages */
-#container						{ width: 90%; margin: 35px; }
+#container						{ width: 90%; min-height: 450px; margin: 35px; }
 #container h2					{ margin: 25px 0 15px 0; }
 #container ul					{ margin: 15px 0 0 20px; }
 #container p					{ margin: 25px 0 15px 0; }
