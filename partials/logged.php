@@ -1,3 +1,5 @@
+<a href="<?= base_url() ?>" id="navbar_left_index" class="icon-home"><span><?= $site_title ?></span></a>
+
 <ul id="navbar_right">
 <?php if ($this->social_auth->logged_in()): ?>
 	<li><a class="dark_nav" href="<?= $link_home ?>">Home</a></li>	
