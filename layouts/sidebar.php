@@ -25,7 +25,6 @@
 <body>
 <div id="navbar">
 	<div id="navbar_inside">
-		<a href="<?= base_url() ?>" id="navbar_left_index"><?= show_site_logo('small', $site_assets.'icons/home.png') ?><span class="navbar_text"><?= $site_title ?></span></a>
 		<?= $logged ?>
 		<div class="clear"></div>
 	</div>
