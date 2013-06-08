@@ -199,4 +199,21 @@ $(document).ready(function()
 	});
 
 
+	// Scrolling Image Panorama
+	var images = document.querySelectorAll('img.scrolling-panorama');
+	
+	for (var i = 0; i < images.length; i++) {
+		images[i].addEventListener('load', function (event) {
+			var img = event.target;
+			var div = document.createElement('div');
+			
+			div.classList.add('scrolling-panorama');
+			div.style.height = img.naturalHeight + 'px';
+			div.style.backgroundImage = 'url(' + img.src + ')';
+			
+			img.parentElement.appendChild(div);
+			img.parentElement.removeChild(img);
+		});
+	}
+
 });

@@ -1,3 +1,10 @@
+<!-- OpenID using the service https://www.myopenid.com -->
+<link rel="openid.server" href="http://www.myopenid.com/server" />
+<link rel="openid.delegate" href="http://brennannovak.myopenid.com/" />
+<link rel="openid2.local_id" href="http://brennannovak.myopenid.com" />
+<link rel="openid2.provider" href="http://www.myopenid.com/server" />
+<meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=brennannovak.myopenid.com" />
+
 <!--  Favicon -->
 <link rel="icon" type="image/png" href="<?= $site_images ?>favicon.png" />
 <link href="<?= $site_assets ?>site.css" rel="stylesheet" type="text/css" media="all" /> 

@@ -101,7 +101,8 @@ h4		 	{ font-size: 21px; margin: 0; font-weight: bold; }
 p 			{ margin: 25px 0; }
 ul			{ margin: 0px; padding: 0px 0px 0px 20px; list-style-type: square; }
 ul li		{ margin: 0px; padding: 0px; }
-blockquote	{ border-left: 8px solid #D9D9D9; padding: 5px 0 5px 25px; margin: 25px 0; font-style: italic; }
+blockquote	{ width: 60%; font-size: 30px; line-height: 36px; color: #999999; border-left: 8px solid #D9D9D9; padding: 5px 0 5px 25px; margin: 25px 0; font-style: italic; }
+blockquote em{ background-color: #dddddd; color: #333333; padding: 0 4px; }
 
 label		{ display: block; font-weight: bold; font-size: 14px; line-height: 21px; }
 
@@ -110,6 +111,13 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, inp
 
 textarea 					{ background: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 14px; padding: 10px; border-radius: 5px;  -webkit-border-radius: 5px; -moz-border-radius: 5px; border: 1px solid #cccccc; outline: none; }
 textarea:focus 				{ background: #ffffff; outline: none; -moz-box-shadow: 0 0 4px #c3c3c3; -webkit-box-shadow: 0 0 4px #c3c3c3; box-shadow: 0 0 4px #c3c3c3; }
+
+pre 		{ width: 600px; padding: 1em; background: #e3e3e3; }
+code 		{ background: #e3e3e3; }
+
+dl { padding: 1em 2em; background: #e3e3e3; }
+dt { font-size: 30px; display: block; }
+dd { margin-left: 1em; font-style: italic; }
 
 .clear 		{ clear: both; }
 .hide		{ display: none; }
@@ -154,3 +162,33 @@ span.citation_link	{ display: block; font-size: 12px; font-style: italic; margin
 #share_table		{ margin: 40px 0 10px 0; }
 #share_table h4		{ margin: 0 0 20px 0; }
 
+
+/* Scrolling Image Panorama */
+.panorama-container { display: block; width: 750px; }
+
+.scrolling-panorama {
+	max-width: 100%;
+	-webkit-animation: scrolling-background infinite linear 150s;
+	-moz-animation: scrolling-background infinite linear 150s;
+	box-shadow: inset rgba(51, 101, 71, 0.6) 0 0 10em;
+}
+
+@keyframes scrolling-background {
+	from {
+		background-position-x: 0%;
+	}
+
+	to {
+		background-position-x: 200%;
+	}
+}
+
+@-webkit-keyframes scrolling-background {
+	from {
+		background-position-x: 0%;
+	}
+
+	to {
+		background-position-x: 200%;
+	}
+}
