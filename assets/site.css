@@ -101,7 +101,8 @@ h4		 	{ font-size: 21px; margin: 0; font-weight: bold; }
 p 			{ margin: 25px 0; }
 ul			{ margin: 0px; padding: 0px 0px 0px 20px; list-style-type: square; }
 ul li		{ margin: 0px; padding: 0px; }
-blockquote	{ width: 60%; font-size: 30px; line-height: 36px; color: #999999; border-left: 8px solid #D9D9D9; padding: 5px 0 5px 25px; margin: 25px 0; font-style: italic; }
+blockquote	{ width: 65%; font-size: 30px; line-height: 36px; color: #999999; border-left: 8px solid #D9D9D9; padding: 5px 0 5px 25px; margin: 25px 0; font-style: italic; }
+blockquote a { font-size: 30px !important; line-height: 36px !important; }
 blockquote em{ background-color: #dddddd; color: #333333; padding: 0 4px; }
 
 label		{ display: block; font-weight: bold; font-size: 14px; line-height: 21px; }

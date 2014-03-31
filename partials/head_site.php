@@ -1,12 +1,15 @@
-<!-- OpenID using the service https://www.myopenid.com -->
-<link rel="openid.server" href="http://www.myopenid.com/server" />
-<link rel="openid.delegate" href="http://brennannovak.myopenid.com/" />
-<link rel="openid2.local_id" href="http://brennannovak.myopenid.com" />
-<link rel="openid2.provider" href="http://www.myopenid.com/server" />
-<meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=brennannovak.myopenid.com" />
+<!-- RSS & Atom Feeds - commented out until this serves some actual data or better yet, a directory of other available feeds from modules
+<link rel="alternate" type="application/rss+xml" title="<?= $site_title ?> RSS 2.0 Feed" href="<?= base_url() ?>feed" />
+-->
 
-<!--  Favicon -->
-<link rel="icon" type="image/png" href="<?= $site_images ?>favicon.png" />
+<!--  Icons for Mobile Devices, Favicon -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="mobile-web-app-capable" content="yes" />
+
+<link rel="shortcut icon" href="<?= $site_images.config_item('design_site_logo') ?>" />
+<link rel="apple-touch-icon-precomposed" href="<?= $site_images.config_item('design_site_logo') ?>" />
+
+<!-- CSS Styles -->
 <link href="<?= $site_assets ?>site.css" rel="stylesheet" type="text/css" media="all" /> 
 <?php
 $this->load->helper('color');
@@ -41,3 +44,5 @@ input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover { bo
 .content_container a:active		{ font-weight: normal; font-weight: bold; text-decoration: none; }
 .content_container p 			{ font-family: <?= config_item('design_font_family') ?>; font-size: <?= config_item('design_font_size') ?>; color: #<?= config_item('design_font_color') ?>; }
 </style>
+
+<script type="text/javascript" charset="utf-8" src="<?= base_url() ?>js/jquery.js"></script>

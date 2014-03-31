@@ -1,6 +1,5 @@
 <div id="footer" style="display:none"></div>
 
-<script type="text/javascript" charset="utf-8" src="<?= base_url() ?>js/jquery.js"></script>
 <script type="text/javascript" src="<?= base_url() ?>js/social.core.js"></script>
 <script type="text/javascript">
 //Global User Data:
